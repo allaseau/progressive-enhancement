@@ -1,0 +1,71 @@
+body {
+    width: 90%;
+    margin: 0 auto;
+    background: linear-gradient(180deg, rgb(111, 173, 228), rgb(132, 134, 135));
+}
+header > p {
+    background-color: yellow;
+}
+h1, h2{
+    color: brown;
+}
+.farmer {
+    color: rgb(38, 79, 226);
+}
+.peon {
+    color: rgb(232, 191, 12);
+}
+q {
+    font-style: italic;
+}
+.good {
+    text-transform: capitalize;
+    color: rgb(35, 241, 35);
+}
+.bad {
+    text-transform: capitalize;
+    color: rgb(251, 52, 52);
+}
+p {
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    color: brown;
+}
+blockquote {
+    margin: 50px auto;
+    font-size: 160%;
+    background: rgb(211, 208, 208);
+    padding: 20px;
+    border: solid black;
+}
+img {
+    float: right;
+    height: 350px;
+    margin: 20px;
+}
+a {
+    color: rgb(45, 79, 193);
+}
+a:hover {
+    color: rgb(203, 31, 31);
+}
+a:visited {
+    color: rgb(185, 34, 196);
+}
+a:visited:hover {
+    color: rgb(37, 36, 36);
+}
+caption, table , th, td{
+    border: 2px double black;
+    border-collapse: collapse;
+    color: brown;
+}
+tr:nth-child(even){
+    background: rgb(235, 230, 230)
+}
+tr:nth-child(odd){
+    background: rgb(193, 172, 172)
+}
+#p{
+    text-align: center;
+}
